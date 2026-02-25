@@ -1,0 +1,10 @@
+system:
+  name: OpenClaw_AStock_Governed_Trading_System
+  execution_focus: 盈利与风控
+  primary_execution:
+    platform: BigQuant
+    capital: 100000
+  research_platform:
+    platform: iFinD
+    qwen_capital: 1000000
+    deepseek_capital: 1000000

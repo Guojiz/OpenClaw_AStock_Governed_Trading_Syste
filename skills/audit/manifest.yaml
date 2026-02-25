@@ -1,0 +1,6 @@
+agent: audit
+skills:
+  - name: claim_check
+  - name: evidence_audit
+  - name: execution_audit
+  - name: incident_review

@@ -1,0 +1,8 @@
+agent: central
+skills:
+  - name: task_dispatch
+  - name: task_orchestrate
+  - name: state_aggregate
+  - name: support_rating_update
+  - name: governance_cycle
+  - name: report_compose

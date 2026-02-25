@@ -1,0 +1,7 @@
+agent: watchdog
+skills:
+  - name: market_monitor
+  - name: risk_trigger_eval
+  - name: emergency_trade_action
+  - name: adaptive_polling
+  - name: watchdog_report

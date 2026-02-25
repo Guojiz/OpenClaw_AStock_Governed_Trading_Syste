@@ -1,0 +1,7 @@
+agent: comms_reports
+skills:
+  - name: feishu_send_status
+  - name: feishu_send_alert
+  - name: feishu_send_daily_report
+  - name: feishu_send_weekly_report
+  - name: template_render_by_session

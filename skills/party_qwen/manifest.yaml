@@ -1,0 +1,9 @@
+agent: party_qwen
+skills:
+  - name: strategy_propose
+  - name: strategy_validate_ifind
+  - name: debate_reply
+  - name: rebuttal_analyze
+  - name: post_close_review
+  - name: next_day_plan
+  - name: brief_summary
