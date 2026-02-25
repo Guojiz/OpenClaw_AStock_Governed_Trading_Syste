@@ -1,0 +1,6 @@
+agent: support_rating
+skills:
+  - name: score_proposal
+  - name: score_execution
+  - name: score_audit_penalty
+  - name: publish_support_delta

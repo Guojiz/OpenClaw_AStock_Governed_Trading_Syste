@@ -1,0 +1,13 @@
+{
+  "agents": [
+    {"name":"central","role":"中央中控","sandbox":"sandbox/central","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["task_dispatch","task_orchestrate","state_aggregate","support_rating_update","governance_cycle","report_compose"]},
+    {"name":"party_qwen","role":"Qwen党策略主体","sandbox":"sandbox/party_qwen","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["strategy_propose","strategy_validate_ifind","debate_reply","rebuttal_analyze","post_close_review","next_day_plan","brief_summary"]},
+    {"name":"party_deepseek","role":"DeepSeek党策略主体","sandbox":"sandbox/party_deepseek","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["strategy_propose","strategy_validate_ifind","debate_reply","rebuttal_analyze","post_close_review","next_day_plan","brief_summary"]},
+    {"name":"watchdog","role":"风险哨兵","sandbox":"sandbox/watchdog","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["market_monitor","risk_trigger_eval","emergency_trade_action","adaptive_polling","watchdog_report"]},
+    {"name":"audit","role":"审计","sandbox":"sandbox/audit","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["claim_check","evidence_audit","execution_audit","incident_review"]},
+    {"name":"support_rating","role":"支持率计算","sandbox":"sandbox/support_rating","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["score_proposal","score_execution","score_audit_penalty","publish_support_delta"]},
+    {"name":"executor","role":"主执行器","sandbox":"sandbox/executor","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["bigquant_login_check","bigquant_strategy_submit","bigquant_status_read","execution_record_write"]},
+    {"name":"techops","role":"技术运维","sandbox":"sandbox/techops","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["credential_presence_check","credential_login_selftest","env_health_check","browser_path_check","platform_troubleshoot","tech_qna_internal"]},
+    {"name":"comms_reports","role":"通讯与汇报","sandbox":"sandbox/comms_reports","workspace":"/workspace/OpenClaw_AStock_Governed_Trading_Syste","skills":["feishu_send_status","feishu_send_alert","feishu_send_daily_report","feishu_send_weekly_report","template_render_by_session"]}
+  ]
+}

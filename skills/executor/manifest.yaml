@@ -1,0 +1,6 @@
+agent: executor
+skills:
+  - name: bigquant_login_check
+  - name: bigquant_strategy_submit
+  - name: bigquant_status_read
+  - name: execution_record_write

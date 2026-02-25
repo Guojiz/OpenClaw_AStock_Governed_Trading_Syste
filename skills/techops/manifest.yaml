@@ -1,0 +1,8 @@
+agent: techops
+skills:
+  - name: credential_presence_check
+  - name: credential_login_selftest
+  - name: env_health_check
+  - name: browser_path_check
+  - name: platform_troubleshoot
+  - name: tech_qna_internal

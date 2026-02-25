@@ -1,0 +1,15 @@
+[project]
+name = "openclaw-astock-governed-trading-system"
+version = "0.1.0"
+description = "A股治理型自动化投资系统第一阶段验活"
+requires-python = ">=3.11"
+dependencies = [
+  "pyyaml>=6.0",
+  "requests>=2.31"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
